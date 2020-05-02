@@ -1,0 +1,64 @@
+@import "variables";
+@import "reset";
+@import "navigation";
+@import "mixins";
+@import "main";
+@import "general";
+@import "cta";
+
+
+html{background-color: gray;}
+
+header ul { 
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    padding:50px;
+
+    a{ 
+        flex-direction: row;
+        text-decoration: none;
+        color: black;
+        font-size: 1.3rem;
+        font-family: sans-serif;
+
+    } 
+}
+li a:hover {
+    background-color: purple;
+    color: cornsilk;
+}
+.container-main{ 
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    .title-container{ 
+        padding: 20px;
+        width: 200%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/starry-night-by-vincent-van-gogh-vincent-van-gogh.jpg) ;
+h1{ margin-top: 90px;}
+}
+}
+.btn {
+    border-radius: 5px;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    padding: 0.4rem;
+    font-size: 1.1rem;
+    margin: 80px;
+    
+  }
+  .btn:hover{ 
+    background-color: gray;}
+    
